@@ -18,7 +18,7 @@ func main() {
 		}
 		return false
 	})
-	alice, bob := 0, 0
+	var alice, bob int
 	for i, v := range arr {
 		if i%2 == 0 {
 			alice += v
